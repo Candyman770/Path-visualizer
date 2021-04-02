@@ -53,16 +53,16 @@
 	background-color: #990066 !important;
 }
 .nodeFinish{
-	//background-color:#a366ff !important;
-	box-sizing: border-box;
-	border:4px #a366ff solid !important;
-	margin-bottom:0.08rem;
+	background-color:#a366ff !important;
+	//box-sizing: border-box;
+	//border:4px #a366ff solid !important;
+	//margin-bottom:0.08rem;
 	cursor:pointer;
 }
 .nodeStart{
-	//background-color:#00cc99 !important;
-	margin-bottom:0.08rem;
-	box-sizing: border-box;
-	border:4px #009973 solid !important;
+	background-color:#00cc99 !important;
+	//margin-bottom:0.08rem;
+	//box-sizing: border-box;
+	//border:4px #009973 solid !important;
 	cursor: pointer;
 }

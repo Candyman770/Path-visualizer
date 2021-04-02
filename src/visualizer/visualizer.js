@@ -331,7 +331,7 @@ const Visualizer=()=>{
 		handleAlgoState(1);
 		setTimeout(()=>{
 			handleAlgoState(2);
-		},visitedNodesInOrder.length*speed+nodesInShortestPath.length*10);
+		},visitedNodesInOrder.length*speedRef[speed]+nodesInShortestPath.length*10+1000);
 
 		if(!!visitedNodesInOrder)
 			animateDijkstra(visitedNodesInOrder,nodesInShortestPath);
